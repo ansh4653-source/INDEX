@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cyber Bullying Cremators | Digital Safety & Awareness</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #ffffff;
+      line-height: 1.6;
+      animation: fadeIn 1.5s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b') center/cover no-repeat;
+      padding: 70px 20px;
+      text-align: center;
+    }
+    .banner {
+      background: rgba(0,0,0,0.65);
+      padding: 30px;
+      border-radius: 20px;
+      animation: slideDown 1.2s ease-out;
+    }
+    @keyframes slideDown {
+      from { transform: translateY(-40px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    header h1 {
+      margin: 0;
+      font-size: 42px;
+      color: #ffdd57;
+    }
+    header p {
+      font-size: 18px;
+    }
+    section {
+      padding: 25px;
+      margin: 25px;
+      background: rgba(255, 255, 255, 0.12);
+      border-radius: 18px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    section:hover {
+      transform: scale(1.02);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.5);
+    }
+    h2 {
+      color: #ffdd57;
+      border-bottom: 2px solid #ffdd57;
+      padding-bottom: 8px;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    button {
+      background: linear-gradient(to right, #ffdd57, #fbb034);
+      border: none;
+      padding: 12px 25px;
+      border-radius: 25px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+    button:hover {
+      transform: scale(1.1);
+    }
+    .quiz label {
+      display: block;
+      margin: 6px 0;
+    }
+    footer {
+      background: #000000aa;
+      padding: 18px;
+      text-align: center;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="banner">
+    <h1>CYBER BULLYING CREMATORS</h1>
+    <p>Empowering Safe, Responsible & Smart Digital Citizens</p>
+  </div>
+</header>
+
+<section>
+  <h2>Digital Literacy</h2>
+  <p>Digital literacy refers to the ability to effectively and critically use digital tools, platforms, and information. It helps individuals access, evaluate, create, and communicate information using technology.</p>
+  <ul>
+    <li>Understanding digital devices and applications</li>
+    <li>Identifying reliable and fake information</li>
+    <li>Using technology for education and productivity</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Digital Citizenship</h2>
+  <p>Digital citizenship means practicing responsible, ethical, and respectful behavior while using digital technologies. A good digital citizen understands rights, responsibilities, and online etiquette.</p>
+  <ul>
+    <li>Respecting others online</li>
+    <li>Following cyber laws and platform rules</li>
+    <li>Promoting positive online communication</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Digital Footprint</h2>
+  <p>A digital footprint is the permanent record of a person’s online activities. It includes social media posts, search history, comments, and shared content.</p>
+  <ul>
+    <li>Active footprint – information shared intentionally</li>
+    <li>Passive footprint – data collected automatically</li>
+    <li>Careless footprints can affect future careers and reputation</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Cyberbullying</h2>
+  <p>Cyberbullying is the use of digital platforms to harass, threaten, or humiliate individuals. It can cause serious emotional and psychological harm.</p>
+  <ul>
+    <li>Occurs on social media, gaming platforms, and messaging apps</li>
+    <li>Includes spreading rumors and abusive messages</li>
+    <li>Should be reported immediately</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Cybersecurity</h2>
+  <p>Cybersecurity involves protecting systems, networks, and personal data from cyber threats such as hacking, malware, and identity theft.</p>
+  <ul>
+    <li>Use strong and unique passwords</li>
+    <li>Install antivirus and security updates</li>
+    <li>Avoid clicking on suspicious links</li>
+  </ul>
+</section>
+
+<section class="quiz">
+  <h2>Knowledge Check: Cyber Awareness Quiz</h2>
+  <p>Attempt the quiz below and click submit to check your understanding.</p>
+
+  <form id="quizForm">
+    <p>1. What does digital literacy help with?</p>
+    <label><input type="radio" name="q1" value="1"> Understanding and using digital information</label>
+    <label><input type="radio" name="q1" value="0"> Online shopping only</label>
+
+    <p>2. Digital citizenship mainly focuses on:</p>
+    <label><input type="radio" name="q2" value="1"> Responsible online behavior</label>
+    <label><input type="radio" name="q2" value="0"> Internet speed</label>
+
+    <p>3. Digital footprint means:</p>
+    <label><input type="radio" name="q3" value="1"> Online activity record</label>
+    <label><input type="radio" name="q3" value="0"> Computer storage</label>
+
+    <p>4. Cyberbullying can affect:</p>
+    <label><input type="radio" name="q4" value="1"> Mental and emotional health</label>
+    <label><input type="radio" name="q4" value="0"> Internet connection</label>
+
+    <p>5. Which is a cybersecurity practice?</p>
+    <label><input type="radio" name="q5" value="1"> Using strong passwords</label>
+    <label><input type="radio" name="q5" value="0"> Sharing OTPs</label>
+
+    <br><button type="button" onclick="submitQuiz()">Submit Quiz</button>
+  </form>
+
+  <p id="quizResult" style="margin-top:15px;font-weight:bold;"></p>
+</section>
+
+<section>
+  <h2>Rate Our Website</h2>
+  <p>Please rate your experience. Your feedback helps us improve our cyber awareness initiatives.</p>
+  <div id="rating">
+    <span onclick="rate(1)">★</span>
+    <span onclick="rate(2)">★</span>
+    <span onclick="rate(3)">★</span>
+    <span onclick="rate(4)">★</span>
+    <span onclick="rate(5)">★</span>
+  </div>
+  <p id="ratingResult" style="margin-top:10px;"></p>
+</section>
+
+<section>
+  <h2>Cyber Safety Helpline</h2>
+  <p><strong>Cyber Crime Helpline (India): 1930</strong></p>
+  <p>Women & Child Safety Helpline: 1091</p>
+  <p>Report cybercrime at: cybercrime.gov.in</p>
+</section>
+
+<footer>
+  <p>© 2025 Cyber Security Cremators | Awareness • Safety • Responsibility</p>
+</footer>
+
+<script>
+  function submitQuiz() {
+    let score = 0;
+    const total = 5;
+    const form = document.getElementById('quizForm');
+    const data = new FormData(form);
+    for (let value of data.values()) {
+      score += Number(value);
+    }
+    document.getElementById('quizResult').innerText = `You scored ${score} out of ${total}. ${score >= 4 ? 'Excellent awareness!' : 'Keep learning about cyber safety.'}`;
+  }
+
+  function rate(stars) {
+    document.getElementById('ratingResult').innerText = `Thank you for rating us ${stars} out of 5.`;
+    const spans = document.querySelectorAll('#rating span');
+    spans.forEach((s, i) => {
+      s.style.color = i < stars ? '#ffdd57' : '#ffffff';
+      s.style.cursor = 'pointer';
+      s.style.fontSize = '26px';
+    });
+  }
+</script>
+
+
+</body>
+</html>
